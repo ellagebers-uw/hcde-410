@@ -24,7 +24,10 @@ Files for HCDE410 - Assignment A2
 6. How do the summary statistics change when the duplicates in the datasets are not changed?
 7. In general, how do the demographics of these workers compare to those of English-speaking internet users overall? Why would it matter if the worker demographics don't match the demographics of the intended end users of the Perspective API?
 8. What issues might arise if the Wikipedia Talk Corpus was used to train a machine learning-driven "hostile speech detector" that could be used on any website or social media platform?
-9. 
+9. What % of workers who labelled the toxicity dataset do we have demographic data for?
+10. What % of the comments in the toxicity dataset were labelled by male vs. female-identified workers?
+11. What % of the comments in the toxicity dataset were labelled by people for whom English is NOT their first language?
+12. Based on the findings from questions 9-11, how might this dataset present a biased view of "toxicity"? How would such biases impact how the Perspective API performs?
 
 ## How to re-run
 Open `A2.ipynb` and run all cells (needs `requests`, `pandas`, `matplotlib`).
