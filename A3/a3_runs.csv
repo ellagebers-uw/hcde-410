@@ -1,1 +1,124 @@
 run,prompt,model,version,timestamp,output,verified,notes
+1,"What is the percentage of families who speak a language other than English at home in Wenatchee, WA. What language is most spoken outside of English, and what percentage of homes speak that language? What is the median income for families in Wenatchee, and how does it differ from the median income of households across the State? ",Claude,Sonnet 5.5,1:18,"Language at home: About 29% of Wenatchee residents age 5 and older speak a language other than English at home. The Census Bureau’s 2019-2023 figure is 29.2%. The Census measures this by person, not by family or household, so this is the closest official measure. 
+census
+
+Most spoken non-English language: Spanish, by a wide margin. In the 2020-2024 ACS, about 9,175 of the roughly 33,253 residents age 5 and over speak Spanish, which works out to about 27.6%. Every other non-English language group is tiny: French/Haitian/Cajun is about 22 people, and German or other West Germanic languages about 25. Spanish accounts for nearly all of the non-English speakers. These percentages are shares of people, not of homes, and I couldn’t find a household-level breakdown for the city. 
+anser
+anser
+
+Income:
+
+Median household income, Wenatchee city: $73,040 (2020-2024 ACS). 
+point2homes
+Median household income, Washington State: $98,141 (2020-2024 ACS). 
+census
+Difference: Wenatchee is about $25,100 lower, or roughly 26% below the state median.
+Median family income: I couldn’t find a figure for the city proper. Family income runs higher than household income because households include people living alone. A ZIP-code-based source puts it at $95,415 for the Wenatchee ZIP codes, against a $81,498 household figure. Those ZIP areas extend beyond the city limits, so they aren’t directly comparable to the city numbers. I also didn’t find a statewide median family income, so the household comparison is the cleanest apples-to-apples one. You can look up the exact family figure in ACS table S1901 for Wenatchee city on data.census.gov. 
+zip-codes
+
+All of these are survey estimates with margins of error. For example, the Spanish-speaker count is ±1,052.
+
+Sources:
+
+Census QuickFacts, Wenatchee city
+Census QuickFacts, Washington
+Anser, Wenatchee language data (2020-2024 ACS)
+Akashic, Wenatchee demographics
+ZIP-Codes.com, Wenatchee demographics",Partially correct,"Claude was able to correctly identify that 29% homes spoke a language other than English at home. It also correctly identified that the most spoken non-English laguge was Spanish with 27.6% speaking it at home. However, the model was not able to find data on the medium Family income (which is $92,619), stating the Cencus did not publish it, though that is where I found the data. Claude was able to correctly identify family vs. household income. The numbers Claude found differed slightly from the data I used (US Cencus Bureau), but found roungly the correct difference between Median Household Incomes of Wenatchee, WA vs Washington State. Claude used multiple sources to find the data, while I only used one (the Wenatchee city, Washington US Census Bureau Profile)."
+2,"What is the percentage of families who speak a language other than English at home in Wenatchee, WA. What language is most spoken outside of English, and what percentage of homes speak that language? What is the median income for families in Wenatchee, and how does it differ from the median income of households across the State? ",Claude,Sonnet 5.5,1:26,"Language at home: About 29% of Wenatchee residents age 5 and older speak a language other than English at home, based on the most recent 2020-2024 American Community Survey (ACS) data. Spanish accounts for 27.6% of residents, with all other languages combined under 2%. The Census Bureau’s earlier 2019-2023 figure was 29.2%. These percentages count people, not households or families. The Census reports language by person, so a family-level figure isn’t published. 
+akashic
+census
+
+Most common non-English language: Spanish. Local estimates put about 9,175 of roughly 33,250 residents age 5 and over speaking Spanish at home, which is where the 27.6% comes from. 
+anser
+
+Income:
+
+Median household income: $73,040 in Wenatchee, compared with $98,141 statewide. That puts Wenatchee about $25,100 (roughly 26%) below the state median. 
+akashic
+Median family income: The Census doesn’t publish this at the city level in the sources I found, so I can’t give an exact city figure or a state comparison. The closest proxy is ZIP-code data for Wenatchee, which shows a median family income of $95,415. Because ZIP boundaries don’t match the city limits, treat that as approximate. Family income runs well above household income because households include people living alone and unrelated roommates. The ZIP-based household figure was $81,498, which is also higher than the city’s $73,040. 
+zip-codes
+zip-codes
+
+If you need an exact family income comparison, the Census Bureau’s ACS table S1901 (Income in the Past 12 Months) lists median family income for both the city and the state.
+
+Sources:
+
+Census QuickFacts: Wenatchee city
+Akashic: Wenatchee, WA (2024 ACS)
+AnSer: Wenatchee language data (ACS 2020-2024)
+ZIP-Codes.com: Wenatchee demographics",Partially correct,"Again, Claude was able to correctly identify that 29% homes spoke a language other than English at home. It also correctly identified that the most spoken non-English laguge was Spanish with 27.6% speaking it at home. However, the model was not able to find data on the medium Family income (which is $92,619), stating the Cencus did not publish it, though that is where I found the data. Claude was able to correctly identify family vs. household income. The numbers Claude found differed slightly from the data I used (US Cencus Bureau), but found rounghly the correct percentage difference between Median Household Incomes of Wenatchee, WA vs Washington State. Claude used multiple sources to find the data, while I only used one (the Wenatchee city, Washington US Census Bureau Profile). The last search used 5 sources, while this one used only 4. The paragrash were broken up into the same sections as the last search."
+3,"What is the percentage of families who speak a language other than English at home in Wenatchee, WA. What language is most spoken outside of English, and what percentage of homes speak that language? What is the median income for families in Wenatchee, and how does it differ from the median income of households across the State?",Claude,Sonnet 5.5,1:29,"I found person-level data for language, and household income rather than family income. The Census Bureau doesn’t publish these as “families” at the city level in the sources I found.
+
+Language at home (ages 5+)
+
+29.2% of Wenatchee residents age 5 and older speak a language other than English at home (2019-2023 ACS). The more recent 2020-2024 figure is about 29.0%. 
+census
+akashic
+Spanish is by far the most common. About 27.6% of residents speak Spanish at home, which is roughly 9,175 people out of about 33,250 residents age 5+. The next-largest groups are tiny, with Asian and Pacific Island languages at 0.4% and Slavic and other Indo-European languages at about 0.2% each. 
+akashic
+akashic
+
+These percentages are of people, not of households or families. I couldn’t find a reliable share of Wenatchee homes where Spanish is spoken. The person-level figure is the best proxy.
+
+Income
+
+Wenatchee’s median household income is $73,040 (2024 ACS 5-year estimate), up from $70,000 in the 2019-2023 estimate (2023 dollars). 
+akashic
+census
+The Washington state median household income is $98,141. 
+akashic
+Wenatchee is about $25,100 lower, or roughly 26% below the state median.
+
+I couldn’t find a Wenatchee-specific median family income. Family medians run higher than household medians because households include single people and unrelated roommates. For an exact family figure, check the Census Bureau’s ACS table S1901 or B19113 for Wenatchee city.
+
+Sources:
+
+Census QuickFacts: Wenatchee city, Washington
+Akashic: Wenatchee, WA (2024 ACS)
+AnSer: Wenatchee language estimates (2020-2024 ACS)",Partially correct,"Again, Claude was able to correctly identify that 29% homes spoke a language other than English at home. It also correctly identified that the most spoken non-English laguge was Spanish with 27.6% speaking it at home. However, the model was not able to find data on the medium Family income (which is $92,619), stating the Cencus did not publish it, though that is where I found the data. Claude was able to correctly identify family vs. household income. The numbers Claude found differed slightly from the data I used (US Cencus Bureau), but found rounghly the correct percentage difference between Median Household Incomes of Wenatchee, WA vs Washington State. Claude used multiple sources to find the data, while I only used one (the Wenatchee city, Washington US Census Bureau Profile). This search used the least amount of sources (3) out of all the runs. This run, the paragrahs were not broken up into the same sections as the last search."
+4,"What is the percentage of families who speak a language other than English at home in Wenatchee, WA. What language is most spoken outside of English, and what percentage of homes speak that language? What is the median income for families in Wenatchee, and how does it differ from the median income of households across the State?",ChatGPT,GPT-5.6 Luna,2:21,"According to the U.S. Census Bureau’s latest available five-year American Community Survey estimates for 2020–2024, Wenatchee has a higher share of residents speaking a language other than English at home than Washington State overall. Spanish is the most common non-English language. 
+
+Census.gov+2
+
+1. Languages spoken at home
+Wenatchee, Washington
+29.0%
+of residents age 5 and older speak a language other than English at home. 
+
+Census.gov
+
+
+Spanish spoken at home
+27.6%
+
+
+
+Share of Wenatchee residents age 5 and older, not just non-English speakers. 
+
+WatchPennies+1
+
+
+- Most common language besides English: Spanish.
+- Percentage speaking Spanish at home: approximately 27.6% of residents age 5 and older.
+- Washington State comparison: 21.4% speak a language other than English at home. Wenatchee is therefore 7.6 percentage points higher than the state. 
+  
+  Census.gov+2
+These language figures describe people, not the percentage of households or families.
+2. Median income: Wenatchee versus Washington State
+For the income comparison, it is important to distinguish median family income from median household income. A family generally consists of related people living together, while a household can include unrelated people or just one person.
+Income measure        Median annual income
+Wenatchee household        $73,040  Census.gov
+Washington State household        Approximately $98,000  Census Reporter
+Difference        Approximately $25,000 less in Wenatchee
+
+Figures are in 2024 dollars and use 2020–2024 Census survey estimates. The state figure is rounded; the exact value should be verified against the same Census table before formal publication.
+
+Wenatchee's median household income is roughly 25% lower than the statewide median. 
+
+Census.gov+1
+
+One qualification: the $73,040 figure is for households, not families specifically. I could verify the household figure but not a reliable matching median family income figure from the available results, so I would not present the household number as the family median.
+
+For a report or presentation, would you prefer the Census-verified family-income figure or a brief, cited demographic summary?
+ Family income figure Cited summary",Partially correct,"ChatGPT was able to correctly identify that 29% homes spoke a language other than English at home. It also correctly identified that the most spoken non-English laguge was Spanish with 27.6% speaking it at home. Claude was able to correctly identify family vs. household income and asked a clarifying question about if I wanted data on medium family income. The numbers Claude found differed slightly from the data I used (US Cencus Bureau), but found roughly the correct percentage difference between Median Household Incomes of Wenatchee, WA vs Washington State. ChatGPT used multiple sources to find the data, while I only used one (the Wenatchee city, Washington US Census Bureau Profile). The search used 4 sources."
