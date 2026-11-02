@@ -1,22 +1,43 @@
 # A3 — Watching the Machine
 
-A starter notebook for HCDE 410 Assignment 3, in which **AI is the subject of study, not the author.** You investigate the reliability and reproducibility of large language models (LLMs) through a small mixed-methods study, then reflect on what it means for trustworthy research.
+HCDE 410 Assignment 3, in which **AI is the subject of study, not the author.** I investigated the reliability and reproducibility of large language models (LLMs) through a small mixed-methods study, then reflected on what it means for trustworthy research.
 
 ## What this notebook is
 
-`A3_watching_the_machine_starter.ipynb` is a scaffold with prompts and empty cells for you to fill in as you work. It walks through five parts:
+`A3_watching_the_machine_starter.ipynb` has five parts:
 
-1. **Prior practice** — a short written reflection on how you currently use LLMs and what they assume about your reliability.
-2. **Reproducibility probe** — pick one task with a *checkable* answer, run the same prompt **3 times in one model** and **once in a second model**, and log every run verbatim in a spreadsheet (prompt, model, version, timestamp, output, verified, notes), exported as `a3_runs.csv` and loaded into a pandas DataFrame. A short helper cell summarizes the log (run count, distinct outputs, verification tally).
-3. **Observation** — watch 1–2 people do a comparable task with an LLM (with permission, no audio/video, nothing personal or sensitive), take timestamped field notes, and group them into themes in a second spreadsheet, exported as `a3_codes.csv`.
-4. **Synthesis & reflection** — bring the probe and observation together into one account about trustworthy, reproducible research and what the student will change in their own AI use.
-5. **Competency declaration & AI use** — state which course competencies the work demonstrates (*qualitative & mixed-methods inquiry*, *reproducible analysis*, *ethical & societal reasoning*) and disclose any AI use per course policy.
+1. **Prior practice** — a short written reflection on how I currently use LLMs and what I assume about their reliability.
+2. **Reproducibility probe**
 
-## Deliverable & workflow
+   The prompt:
+    
+   “What is the percentage of families who speak a language other than English at home in Wenatchee, WA. What language is
+   most spoken outside of English, and what percentage of homes speak that language? What is the median income for families
+   in Wenatchee, and how does it differ from the median income of households across the State?” 
+    
+   Was run three times in Claude and one time in ChatGPT. Each run was logged verbatim in a spreadsheet (prompt, model,
+   version, timestamp, output, verified, notes), exported as `a3_runs.csv` and loaded into a pandas DataFrame. A short helper
+   cell summarizes the log (run count, distinct outputs, verification tally).
+    
+    **Prompt Answer Key (held as ground truth):**
+    - Languages other than English spoken at home in Wenatchee, Washington: 29.0% ± 3.2%.
+    - Second highest type of language spoken at home in Wenatchee, Washington: Spanish at 27.6% 
+    - Median Income for Families in Wenatchee, WA: $92,619.
+    - Median Household Income in Wenatchee, WA: $73,040 ± $5,455
+    - Median Household Income in Washington state: $101,946 ± $719
+    - Difference in Median Househole Income: $28,906 or 33.04% 
+    
+    **Data Sources for Answer Key**
+    Wenatchee city, Washington Cencus Bureau Profile:
+    - https://data.census.gov/profile/Wenatchee_city,_Washington?g=160XX00US5377105#populations-and-people
+    - https://data.census.gov/profile/Wenatchee_city,_Washington?g=160XX00US5377105#income-and-poverty
 
-- Fill in each section directly in the notebook (name and date at the top).
-- Commit to your `hcde-410` repo **as you work** — commit history is part of what you hand in.
-- Do the analysis and writing yourself: in this assignment AI is your subject, not your author.
+4. **Observation** — watched a user use the same prompt with an LLM of their choosing (Gemini) (with permission, no audio/video, nothing personal or sensitive), took timestamped field notes, and grouped them into themes in a second spreadsheet, exported as `a3_codes.csv`.
+   
+5. **Synthesis & reflection** — brought the probe and observation together into one account about trustworthy, reproducible research and what I will change in my own AI use.
+
+
+6. **Competency declaration & AI use** — stated which course competencies the work demonstrates (*qualitative & mixed-methods inquiry*, *reproducible analysis*, *ethical & societal reasoning*) and disclosed any AI use per course policy.
 
 ## How to run
 
