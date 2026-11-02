@@ -15,9 +15,9 @@ HCDE 410 Assignment 3, in which **AI is the subject of study, not the author.** 
    most spoken outside of English, and what percentage of homes speak that language? What is the median income for families
    in Wenatchee, and how does it differ from the median income of households across the State?” 
     
-   Was run three times in Claude and one time in ChatGPT. Each run was logged verbatim in a spreadsheet (prompt, model,
-   version, timestamp, output, verified, notes), exported as `a3_runs.csv` and loaded into a pandas DataFrame. A short helper
-   cell summarizes the log (run count, distinct outputs, verification tally).
+   The prompt was run three times in Claude and one time in ChatGPT. Each run was logged verbatim in a spreadsheet (prompt,
+   model, version, timestamp, output, verified, notes), exported as `a3_runs.csv` and loaded into a pandas DataFrame. A short
+   helper cell summarizes the log (run count, distinct outputs, verification tally).
     
     **Prompt Answer Key (held as ground truth):**
     - Languages other than English spoken at home in Wenatchee, Washington: 29.0% ± 3.2%.
